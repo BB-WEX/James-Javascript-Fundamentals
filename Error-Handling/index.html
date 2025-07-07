@@ -7,7 +7,51 @@
     <script src="/Error-Handling/script.js"></script>
     <link rel="stylesheet" href="/Error-Handling/styles.css">
 </head>
-<body>
-    
+<body onload="fetchData()">
+    <h1>Enter the id you want to check (1-10)</h1>
+    <input type="number" maxlength="2" id="userInput">
+    <button onclick="getInnerTxt()">Submit</button>
+    <!-- <p id="outtxt"></p> -->
+     <div class="txtDiv">
+        <h1 class="key">Name</h1>
+        <p class="valueTxt" id="nameOutput"></p>
+     </div>
+     <div class="txtDiv">
+        <h1 class="key">Username</h1>
+        <p class="valueTxt" id="usernameOutput"></p>
+     </div>
+     <div class="txtDiv">
+        <h1 class="key">Email</h1>
+        <p class="valueTxt" id="emailOutput"></p>
+     </div>
+     <h2>ADDRESS</h2>
+     <div class="txtDiv">
+        <h1 class="key">Street</h1>
+        <p class="valueTxt" id="streetOutput"></p>
+     </div>
+     <div class="txtDiv">
+        <h1 class="key">Suite</h1>
+        <p class="valueTxt" id="suiteOutput"></p>
+     </div>
+     <div class="txtDiv">
+        <h1 class="key">City</h1>
+        <p class="valueTxt" id="cityOutput"></p>
+     </div>
+     <div class="txtDiv">
+        <h1 class="key">Zipcode</h1>
+        <p class="valueTxt" id="zipcodeOutput"></p>
+     </div>
+     <div class="txtDiv">
+        <h1 class="key">Phone</h1>
+        <p class="valueTxt" id="phoneOutput"></p>
+     </div>
+     <div class="txtDiv">
+        <h1 class="key">Website</h1>
+        <p class="valueTxt" id="websiteOutput"></p>
+     </div>
+     <div class="txtDiv">
+        <h1 class="key">Company Name</h1>
+        <p class="valueTxt" id="companyNameOutput"></p>
+     </div>
 </body>
 </html>
