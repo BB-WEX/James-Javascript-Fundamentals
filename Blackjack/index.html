@@ -11,23 +11,26 @@
     <div class="container">
         <div class="content">
             <h1>Blackjack</h1>
-            <h2>Want to play a round?</h2>
+            <div class="topTxt"><h2 id="topText">Want to play a round?</h2></div>
             <div class="cardsDiv">
                 <p>Cards: </p>
                 <p id="cardsLocation"></p>
             </div>
             <div class="sumDiv">
                 <p>Sum: </p>
-                <p id="sumLocation"></p>
+                <p id="sumsLocation"></p>
             </div>
             <div class="btns">
                 <button id="start">START GAME</button>
-                <button id="newCard">NEW CARD</button>
+                <button id="newCard" class="">NEW CARD</button>
             </div>
             <div class="moneyDiv">
                 <h3>Money: </h3>
-                <p id="money">£200</p>
+                <p>£</p>
+                <p id="money">200</p>
             </div>
+            <p class="bet" >Bet: £ <input type="number" id="bet" min="10" max="200" step="10" value="20" placeholder="00" onkeydown="return false"></p>
+            <p id="dealerOutput"></p>
         </div>
     </div>
 </body>

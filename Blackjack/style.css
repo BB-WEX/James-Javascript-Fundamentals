@@ -14,14 +14,14 @@ body {
 .content {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-around;
     align-items: center;
     background-image: url(/Blackjack/background.jpg);
-    background-size: 800px;
+    background-size: 1000px;
     color: rgba(255, 255, 255, 0.716);
     font-size: small;
     width: 300px;
-    height: 350px;
+    height: 430px;
     margin: 50px 0px 0px 0px;
     border-radius: 20px;
     gap: 20px;
@@ -38,6 +38,10 @@ h1, h3, p, h2 {
     justify-content: center;
     align-items: center;
     gap: 5px;
+}
+
+.moneyDiv {
+    margin: 0px 0px 0px 0px;
 }
 
 p {
@@ -61,12 +65,30 @@ button {
     font-weight: 900;
 }
 
-h2 {
-    margin-bottom: 20px;
+#topText {
     font-weight: 400;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    height: 50px;
+    margin: 10px 0px 10px 0px;
 }
+
+
 
 h1 {
     color: goldenrod;
     font-size: 32px;
+}
+
+.disabledBtn {
+    color: rgba(66, 139, 66, 0.3);
+    background-color: rgba(218, 165, 32, 0.3);
+}
+
+input {
+    width: 40px;
+    margin: 0px 0px 10px 0px;
 }
