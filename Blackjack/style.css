@@ -1,0 +1,72 @@
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url(/Blackjack/background.jpg);
+    background-size: 800px;
+    color: rgba(255, 255, 255, 0.716);
+    font-size: small;
+    width: 300px;
+    height: 350px;
+    margin: 50px 0px 0px 0px;
+    border-radius: 20px;
+    gap: 20px;
+    padding: 20px 0px 0px 0px;
+}
+
+h1, h3, p, h2 {
+    margin: 0px;
+}
+
+.moneyDiv, .cardsDiv, .sumDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+p {
+    font-size: 18px;
+}
+
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+button {
+    width: 150px;
+    height: 30px;
+    border: none;
+    background: goldenrod;
+    color: rgb(66, 139, 66);
+    border-radius: 5px;
+    font-weight: 900;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+h1 {
+    color: goldenrod;
+    font-size: 32px;
+}
