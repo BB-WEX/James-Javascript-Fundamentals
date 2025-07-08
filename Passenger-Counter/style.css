@@ -1,0 +1,42 @@
+body {
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pageContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px 0px 0px;
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+button {
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+#increment {
+    
+    background-color: red;
+    
+}
+
+#save {
+    background-color: green;
+}
