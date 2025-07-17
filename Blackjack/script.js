@@ -161,7 +161,7 @@ function dealerHit() {
 // This function allows the player to hit and adds on the extra card to the list of cards and the sum
 
 function playerHit() {
-    playerNum3 = Math.floor(Math.random() * 11) + 0;
+    playerNum3 = Math.floor(Math.random() * 11) + 1;
     if (playerTotal > 11 && playerNum3 == "11") {
         playerNum3 = 1;
     }
