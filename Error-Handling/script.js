@@ -1,3 +1,5 @@
+const errorOutput = document.getElementById("errorLocation");
+
 async function fetchData() {
     try {
         const response = await fetch('https://jsonplaceholder.typicode.com/users');
@@ -8,7 +10,8 @@ async function fetchData() {
 
         return data;
     } catch (error) {
-        console.error('fetchData Error:', error.message);
+        var message3 = ('fetchData Error:', error.message);
+        errorOutput.innerHTML = "fetchData Error:" + message3;
     }
 }
 
@@ -59,8 +62,10 @@ function getInnerTxt() {
     document.querySelector('#companyNameOutput').innerHTML = dataCompanyName;
 
     } catch (error){
-        console.error("Invalid input was submitted: ", error.message);
-    }
+        var message2 = ("Invalid input was submitted: ", error.message);
+        errorOutput.innerHTML = "Invalid input was submitted: " + message2;
+    } 
+    
 
 
 
