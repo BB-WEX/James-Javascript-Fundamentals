@@ -1,0 +1,169 @@
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(255, 255, 255, 0.716);
+    background-image: url(/Blackjack/background.jpg);
+    background-size: 1200px;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(/Blackjack/background.jpg);
+    background-size: 1000px;
+    color: rgba(255, 255, 255, 0.716);
+    font-size: small;
+    width: 300px;
+    height: 430px;
+    margin: 50px 0px 0px 0px;
+    border-radius: 20px;
+    gap: 20px;
+    padding: 20px 0px 0px 0px;
+}
+
+h1, h3, p, h2 {
+    margin: 0px;
+    padding: 2px;
+}
+
+.moneyDiv, .cardsDiv, .sumDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.moneyDiv {
+    margin: 0px 0px 0px 0px;
+}
+
+p {
+    font-size: 18px;
+}
+
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+button {
+    width: 150px;
+    height: 30px;
+    border: none;
+    background: goldenrod;
+    color: rgb(66, 139, 66);
+    border-radius: 5px;
+    font-weight: 900;
+}
+
+#topText {
+    font-weight: 400;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    height: 50px;
+    margin: 10px 0px 10px 0px;
+}
+
+
+
+h1 {
+    color: goldenrod;
+    font-size: 32px;
+}
+
+.disabledBtn {
+    color: rgba(66, 139, 66, 0.3);
+    background-color: rgba(218, 165, 32, 0.3);
+}
+
+input {
+    width: 40px;
+    margin: 0px 0px 10px 0px;
+}
+
+.dealer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 2px 6px 6px rgba(0, 0, 0, 0.342);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 20px;
+    width: 300px;
+}
+
+.dealersCards {
+    margin: 20px 100px 20px 0px;
+
+}
+
+.player {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 0px 2px 6px 6px rgba(0, 0, 0, 0.342);
+}
+
+.playerContent {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Cards {
+    margin: 5px 0px 40px 0px;
+}
+
+.playerMiddleContent {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    justify-content: space-between;
+}
+
+.pageContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.cardsDiv p, .btns button {
+    padding: 5px;
+}
+
+.dealersCardsDiv{
+    display: flex;
+    flex-direction: row;
+}
+
+.dealersSumDiv {
+    display: flex;
+    flex-direction: row;
+}

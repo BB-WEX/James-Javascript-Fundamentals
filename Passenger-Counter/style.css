@@ -1,0 +1,61 @@
+body {
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(255, 255, 255, 0.817);
+    font-size: small;
+}
+
+.pageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.pageContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px 0px 0px;
+    width: 300px;
+    height: 450px;
+    background-image: url(/Passenger-Counter/train-station.jpg);
+    background-size: 700px;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.217) 5px 5px 5px;
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+button {
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+#increment {
+    
+    background-color: blue;
+    
+}
+
+#save {
+    background-color: green;
+}
+
+#clear {
+    background-color: red;
+}
+
+p {
+    max-width: 200px;
+    font-size: 12px;
+}

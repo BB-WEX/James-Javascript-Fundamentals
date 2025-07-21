@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Blackjack/style.css">
+    <script src="/Blackjack/script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="pageContent">
+            <div class="dealer">
+                <h2>Dealers Cards</h2>
+                <div class="dealersCards">
+                    <div class="dealersCardsDiv">
+                        <p>Cards: </p>
+                        <p id="dealersCardsLocation"></p>
+                    </div>
+                    <div class="dealersSumDiv">
+                        <p>Sum: </p>
+                        <p id="dealersSumLocation"></p>
+                    </div>
+                </div>
+                <p>Dealer has 50% chance to hit on 16</p>
+            </div>
+            <div class="player">
+                <div class="playerContent">
+                    <div class="topTxt"><h2 id="topText">Want to play a round?</h2></div>
+                    <div class="playerMiddleContent">
+                        <div class="Cards">
+                            <div class="cardsDiv">
+                                <p>Cards: </p>
+                                <p id="cardsLocation"></p>
+                            </div>
+                            <div class="sumDiv">
+                                <p>Sum: </p>
+                                <p id="sumsLocation"></p>
+                            </div>
+                        </div>
+                        <div class="btns">
+                            <button id="start" onclick="startGame()">START GAME</button>
+                            <button id="hit" class="" onclick="playerHit()">HIT</button>
+                            <button id="stand" class="" onclick="playerStand()">STAND</button>
+                        </div>
+                    </div>
+                    <div class="moneyDiv">
+                        <h3>Money: </h3>
+                        <p>£</p>
+                        <p id="money">200</p>
+                    </div>
+                    <p class="Bet" >Bet: £ <input type="number" id="bet" min="10" max="200" step="10" value="20" placeholder="00" onkeydown="return false"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
