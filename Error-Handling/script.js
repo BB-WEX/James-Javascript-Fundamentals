@@ -1,4 +1,3 @@
-const errorOutput = document.getElementById("errorLocation");
 
 async function fetchData() {
     try {
@@ -11,6 +10,7 @@ async function fetchData() {
         return data;
     } catch (error) {
         var message3 = ('fetchData Error:', error.message);
+        const errorOutput = document.getElementById("errorLocation");
         errorOutput.innerHTML = "fetchData Error:" + message3;
     }
 }
@@ -63,6 +63,7 @@ function getInnerTxt() {
 
     } catch (error){
         var message2 = ("Invalid input was submitted: ", error.message);
+        const errorOutput = document.getElementById("errorLocation");
         errorOutput.innerHTML = "Invalid input was submitted: " + message2;
     } 
     
