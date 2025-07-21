@@ -1,0 +1,67 @@
+@font-face {
+    font-family: digitalFont;
+    src: url(DS-DIGIT.TTF);
+}
+
+
+
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    background-color: rgb(95, 95, 181);
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.pageContent {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+
+.scoreDiv {
+    display: inherit;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    margin: 0px;
+    font-size: 50px;
+}
+
+h1 {
+    background-color: rgba(32, 32, 63, 0.275);
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    color: rgb(220, 72, 72);
+    font-family: 'digitalFont';
+}
+
+button {
+    width: 32px;
+    height: 32px;
+    background: black;
+    border: 1px dashed black;
+    box-shadow: none;
+    font-size: 12px;
+    border-radius: 5px;
+    color: white;
+}
+
+#homeReset, #awayReset {
+    width: fit-content;
+    margin: 10px 0px 0px 0px;
+    background-color: rgb(220, 72, 72);
+    color: white;
+    border: 1px dashed rgb(220, 72, 72);
+}
+
